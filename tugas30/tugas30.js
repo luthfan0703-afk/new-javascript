@@ -84,6 +84,7 @@ console.log("nilai z adalah " + z);
 //soal ke-8
 let money = 4;
 money *= 2;
+money *= 2; 
 
 console.log("nilai variable money adalah " + money);
 
