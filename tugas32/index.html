@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tugas 32</title>
+  </head>
+  <body>
+    <!-- no 1 -->
+    <h1>no-1</h1>
+    <div id="welcomeBox">selamat datang...</div>
+    <span id="studentName"> nama belum diisi </span>
+
+    <!--  no 2 -->
+    <h1>no-2</h1>
+    <div id="noteArea"></div>
+
+    <!-- no 3 -->
+    <h1>no-3</h1>
+    <div id="resultBox"></div>
+    <br />
+    <input type="text" id="userGender" placeholder="Masukkan jenis kelamin" />
+    <button
+      id="showBtn"
+      onclick="
+        document.getElementById('resultBox').textContent =
+          document.getElementById('userGender').value
+      "
+    >
+      Tampilkan
+    </button>
+
+    <!-- no 4 -->
+    <h1>no-4</h1>
+    <input type="text" id="contactNumber" value="Nomor belum diisi" />
+
+    <!-- no 5 -->
+    <h1>no-5</h1>
+    <div id="articleContainer"></div>
+    <button
+      id="addParagraphBtn"
+      onclick="
+        document.getElementById('articleContainer').innerHTML = 'Paragraf baru'
+      "
+    >
+      Tambah Paragraf
+    </button>
+
+    <script src="./tugas.js"></script>
+  </body>
+</html>
