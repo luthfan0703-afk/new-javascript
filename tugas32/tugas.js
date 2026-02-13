@@ -22,3 +22,7 @@ let contact = document.getElementById("contactNumber");
 console.log(contact.value);
 
 contact.value = "08123456789";
+
+//! soal ke lima
+
+//* di dalam inline
