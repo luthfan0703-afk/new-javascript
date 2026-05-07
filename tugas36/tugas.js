@@ -9,7 +9,7 @@ if (nilaiUjianAndi > 90) {
 }
 
 //*NO .2
-let kodePassword = "admin123";
+let kodePassword = password === "admin123";
 
 if (kodePassword) {
   console.log("login berhasil");
@@ -18,11 +18,9 @@ if (kodePassword) {
 }
 
 //*NO .3
-let senin = 1;
-let selasa = 2;
-let rabu = 3;
+let hari = 2;
 
-switch (senin) {
+switch (hari) {
   case 1:
     console.log("senin");
     break;
@@ -38,11 +36,9 @@ switch (senin) {
 }
 
 //*NO .4
-let admin = "admin";
-let user = "user";
-let unknown = "tidak diketahui";
+let role = "admin";
 
-switch (admin) {
+switch (role) {
   case "admin":
     console.log("akses penuh");
     break;
